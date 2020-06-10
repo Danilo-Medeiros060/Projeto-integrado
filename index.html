@@ -8,6 +8,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
       
@@ -19,38 +27,112 @@
  
     <!-- Navebar-->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(114, 24, 24);">
-        <a class="navbar-brand" href="#"> Educação transforma </a>
+        <a class="navbar-brand" href="#"> <i class="fa fa-home" style="color:rgb(226, 228, 206);font-size: 25px;"></i>   Direito a educação </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"> Home <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"> Docum </a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-cog fa-spin" style="font-size:15px;color:rgb(165, 159, 159)"></i> Comparações
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"> <i class='far fa-bell' style='font-size:18px'></i> <i class='far fa-bell-slash' style='font-size:18px'></i> Condição x falta de condição </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> <i class='fas fa-bell' style='font-size:18px'></i> <i class='fas fa-bell-slash' style='font-size:18px'></i> Escola particular x Escola pública </a>
+              </div>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Escolhas
+                <i class="fa fa-cog fa-spin" style="font-size:15px;color:rgb(165, 159, 159)"></i> Aspectos internos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
+                <a class="dropdown-item" href="#"> <i class="material-icons" style="font-size:21px">phonelink</i> Lugares remotos </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Outra ação</a>
+                <a class="dropdown-item" href="#"> <i class="fas fa-spinner fa-pulse"></i> Processo de militarização das escolas públicas </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-cog fa-spin" style="font-size:15px;color:rgb(165, 159, 159)"></i> Aspectos sociologicos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"><i class='fas fa-user-tie' style='font-size:18px;color: rgb(0, 0, 0);'></i> <i class='fas fa-user-tie' style='font-size:18px;color: rgb(177, 176, 176);'></i> Desigualdade social </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">terceira ação</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="#"><i class='fas fa-user-tie' style='font-size:18px;color:black;'></i> <i class='fas fa-user-tie' style='font-size:18px;color: rgb(177, 176, 176);'></i>  Falta de oportunidade </a>
               </div>
             </li>
           </ul>
+          <a href="https://github.com/Danilo-Medeiros060" target="blank" class="fa fa-github" aria-hidden="true" style="font-size: 40px;color: black;><i class="icon-user icon-white"></i></a>
         </div>
       </nav>
 
       <!-- Carousel-->
-      
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 opaco" src="Imagens/carousel/teste1.jpg" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="foco0"> Title</h4>
+              <p class="foco"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis atque soluta. Sunt, facere debitis quia nisi magnam, commodi eum consequatur enim, temporibus esse itaque corrupti aspernatur repellat. Voluptatibus, provident?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 opaco" src="Imagens/carousel/teste2.jpg" alt="Segundo Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="foco0"> Title</h4>
+              <p class="foco"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis atque soluta. Sunt, facere debitis quia nisi magnam, commodi eum consequatur enim, temporibus esse itaque corrupti aspernatur repellat. Voluptatibus, provident?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 opaco" src="Imagens/carousel/teste3.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h4 class="foco0"> Title</h4>
+              <p class="foco"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis atque soluta. Sunt, facere debitis quia nisi magnam, commodi eum consequatur enim, temporibus esse itaque corrupti aspernatur repellat. Voluptatibus, provident?</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+      <hr/>
+      <!-- Introdução-->
+      <br/>
+      <center>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="Imagens/card/introdução.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title"><b> <i> Introdução </i></b></h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas alias voluptatibus dicta reiciendis saepe, facere nam commodi. Eveniet voluptatibus aspernatur inventore dolore ea sapiente accusantium adipisci qui quam. Perspiciatis, minima. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor quisquam aliquam vero iure et inventore dolorum, debitis voluptatibus architecto reiciendis quo autem tenetur eveniet, quae deleniti? Consequatur, cupiditate laborum.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Rodapé</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Imagens/card/integrantes.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title"><b> <i> Integrantes </i></b></h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur ut, at repellat, hic corporis dolore voluptas autem ipsam eaque ratione est voluptate iure rerum veritatis consectetur numquam consequatur voluptates ducimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea saepe ut delectus voluptatum doloremque necessitatibus. Ea nostrum, laborum dolore, architecto, aperiam iste expedita dolores dignissimos deleniti laboriosam aspernatur eius facilis!</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted"> Rodapé </small>
+          </div>
+        </div>
+      </center>
 </body>
 </html>

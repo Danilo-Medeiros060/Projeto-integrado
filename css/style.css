@@ -1,0 +1,23 @@
+.opaco {
+    opacity: .6;
+}
+
+.card-body {
+    text-align: justify;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.foco0{
+    color: black;
+    font-size: 28px;
+    text-align: end;
+}
+
+.foco {
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
