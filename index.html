@@ -26,7 +26,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  
     <!-- Navebar-->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(51, 79, 122);">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(5, 5, 31);">
         <a class="navbar-brand" href="#"> <i class="fa fa-home" style="color:rgb(226, 228, 206);font-size: 25px;"></i>   Direito a educação </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@
               </div>
             </li>
           </ul>
-          <a href="https://github.com/Danilo-Medeiros060" target="blank" class="fa fa-github" aria-hidden="true" style="font-size: 40px;color: rgb(61, 6, 61);"><i class="icon-user icon-white"></i></a>
+          <a href="https://github.com/Danilo-Medeiros060" target="blank" class="fa fa-github" aria-hidden="true" style="font-size: 40px;color: rgb(255, 255, 255);"><i class="icon-user icon-white"></i></a>
           <h6 class="invisivel_1"> ....</h6>
           <a href="https://www.youtube.com/channel/UCUIbXF822udr-ytcsGZx3pQ" target="blank" class="fa fa-youtube-play" aria-hidden="true" style="font-size: 40px;color: rgb(255, 0, 0);"><i class="icon-user icon-white"></i></a>
         </div>
@@ -94,7 +94,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100 opaco" src="Imagens/carousel/teste3.jpg" alt="Terceiro Slide">
+            <img class="d-block w-100 opaco" src="Imagens/carousel/teste3.png" alt="Terceiro Slide">
             <div class="carousel-caption d-none d-md-block">
               <h4 class="foco0"> Title</h4>
               <p class="foco"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae blanditiis atque soluta. Sunt, facere debitis quia nisi magnam, commodi eum consequatur enim, temporibus esse itaque corrupti aspernatur repellat. Voluptatibus, provident?</p>
@@ -119,20 +119,89 @@
           <img class="card-img-top" src="Imagens/card/introdução.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title"><b> <i> Introdução </i></b></h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas alias voluptatibus dicta reiciendis saepe, facere nam commodi. Eveniet voluptatibus aspernatur inventore dolore ea sapiente accusantium adipisci qui quam. Perspiciatis, minima. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum dolor quisquam aliquam vero iure et inventore dolorum, debitis voluptatibus architecto reiciendis quo autem tenetur eveniet, quae deleniti? Consequatur, cupiditate laborum.</p>
-          </div>
+            <p class="card-text"> O direto a educação Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis doloremque unde perferendis assumenda deleniti aperiam in. Quos quo neque repudiandae commodi nisi molestiae nam dignissimos natus eum corporis. Atque, debitis! </p>
+
+            </div>
           <div class="card-footer">
-            <small class="text-muted">Rodapé</small>
+            <small class="text-muted">
+
+                            <!-- Botão para acionar modal -->
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado">
+              Clique para ler o artigo da constituição
+            </button>
+
+                              <!-- Modal -->
+            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                     <div class="modal-header">
+                         <h5 class="modal-title" id="TituloModalCentralizado"> Artigos: 205 - 207 </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                               <span aria-hidden="true">&times;</span>
+                             </button>
+                       </div>
+                         <div class="modal-body">
+                            <P> Art. 205. A educação, direito de todos e dever do Estado e da família, será promovida e incentivada com a colaboração da sociedade, visando ao pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e sua qualificação para o trabalho.
+                            </p> <p>
+                              Art. 206. O ensino será ministrado com base nos seguintes princípios:
+
+                              I -  igualdade de condições para o acesso e permanência na escola;
+                      
+                              II -  liberdade de aprender, ensinar, pesquisar e divulgar o pensamento, a arte e o saber;
+                      
+                              III -  pluralismo de idéias e de concepções pedagógicas, e coexistência de instituições públicas e privadas de ensino;
+                      
+                              IV -  gratuidade do ensino público em estabelecimentos oficiais;
+                      
+                              V -  valorização dos profissionais do ensino, garantido, na forma da lei, plano de carreira para o magistério público, com piso salarial profissional e ingresso exclusivamente por concurso público de provas e títulos, assegurado regime jurídico único para todas as instituições mantidas pela União;
+                      
+                              VI -  gestão democrática do ensino público, na forma da lei;
+                      
+                              VII -  garantia de padrão de qualidade.
+                            </p> <p>
+                              Art. 207. As universidades gozam de autonomia didático-científica, administrativa e de gestão financeira e patrimonial, e obedecerão ao princípio de indissociabilidade entre ensino, pesquisa e extensão.
+                            </p> <h6>
+                            Leia mais, em: <a id="vermelho" href="https://www.senado.leg.br/atividade/const/con1988/CON1988_05.10.1988/art_207_.asp" target="blank"> Atividade legislativa. </a>
+                            </h6>
+                          </div>
+                       </div>
+                     </div>
+                      </div>
+             </small>
           </div>
         </div>
         <div class="card">
           <img class="card-img-top" src="Imagens/card/integrantes.jpg" alt="Imagem de capa do card">
           <div class="card-body">
             <h5 class="card-title"><b> <i> Integrantes </i></b></h5>
-            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur ut, at repellat, hic corporis dolore voluptas autem ipsam eaque ratione est voluptate iure rerum veritatis consectetur numquam consequatur voluptates ducimus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea saepe ut delectus voluptatum doloremque necessitatibus. Ea nostrum, laborum dolore, architecto, aperiam iste expedita dolores dignissimos deleniti laboriosam aspernatur eius facilis!</p>
+            <p class="card-text">rporis dolore voluptas aquatur  sit amet consectetur adipisicing elit. Ea saepe ut delectus voluptatum doloremque necessitatibus. Ea nostrum, laborum dolore, architecto, aperiam iste expedita dolores dignissimos deleniti laboriosam aspernatur eius facilis!</p>
           </div>
           <div class="card-footer">
-            <small class="text-muted"> Rodapé </small>
+            <small class="text-muted">             
+              
+
+                            <!-- Botão para acionar modal -->
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                              Abrir modal de demonstração
+                            </button>
+                
+                                              <!-- Modal -->
+                            <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                               <div class="modal-dialog modal-dialog-centered" role="document">
+                                  <div class="modal-content">
+                                     <div class="modal-header">
+                                         <h5 class="modal-title" id="TituloModalCentralizado">?</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                               <span aria-hidden="true">&times;</span>
+                                             </button>
+                                       </div>
+                                         <div class="modal-body">
+                                            <P> OOOOOI</P>
+                                          </div>
+                                       </div>
+                                     </div>
+                                      </div>
+                             </small>
           </div>
         </div>
       </center>

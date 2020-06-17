@@ -1,5 +1,5 @@
 .opaco {
-    opacity: .6;
+    opacity: .8;
 }
 
 .card-body {
@@ -23,9 +23,23 @@
 }
 
 .invisivel_1 {
-    color: rgb(51, 79, 122);
+    color: rgb(5, 5, 31);
 }
 
 body {
     background-color: rgba(51, 79, 122, 0);
+}
+
+p {
+    text-align: justify;
+}
+
+#vermelho {
+    color: brown;
+}
+
+#TituloModalCentralizado {
+    text-align: center;
+    color: brown;
+    font-weight: bold;
 }
