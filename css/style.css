@@ -21,3 +21,11 @@
     font-size: 20px;
     text-align: justify;
 }
+
+.invisivel_1 {
+    color: rgb(51, 79, 122);
+}
+
+body {
+    background-color: rgba(51, 79, 122, 0);
+}
