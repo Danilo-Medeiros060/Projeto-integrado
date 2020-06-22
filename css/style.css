@@ -1,3 +1,27 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v52/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
 .opaco {
     opacity: .8;
 }
@@ -26,6 +50,10 @@
     color: rgb(5, 5, 31);
 }
 
+.invi_2 {
+    color: white
+}
+
 body {
     background-color: rgba(51, 79, 122, 0);
 }
@@ -42,4 +70,34 @@ p {
     text-align: center;
     color: brown;
     font-weight: bold;
+}
+
+.rodape {
+    margin-top: 20px;
+}
+
+.padrão {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+h3 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: rgba(153, 8, 8, 0.295) 2px 2px 3px;
+    color:rgba(153, 8, 8, 0.651);
+}
+
+.bordas {
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: rgb(39, 39, 39) 10px 10px 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.borda {
+    border: 1px solid rgb(0, 0, 0);
 }
