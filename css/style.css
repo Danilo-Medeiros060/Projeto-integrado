@@ -105,3 +105,11 @@ h3 {
 .conteudo {
     margin: 20px;
 }
+
+.conteudo_0 {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
